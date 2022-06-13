@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Prata&family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+}
+
+.general{
+    background-image:url("v2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    display: flex;
+    align-items: center;
+} 
+
+.principal{
+    /* border: 5px solid red;*/
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(4, 4, 4);
+    text-align:center;
+}
+
+.principal_titulo{
+    font-size: 36px;
+    background-color: whitesmoke;
+    font-family: 'Prata', serif;
+}
+
+.principal_parrafo{
+    font-size: 19px;
+    background-color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+
+.principal_boton{
+    width:100px;
+    height:30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:rgb(206, 103, 68);
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.redesSociales_logo{
+    height:25px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.menu{
+    background-color:rgb(221, 184, 146);
+    height: 80px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size:20px;
+    font-family: 'Prata', serif;
+}
+
+.menu_logo{
+    height: 60px;
+}
+
+.menu_lista{
+    display:flex;
+    list-style: none;
+}
+
+.menu_lista_elementos{
+    margin-left:50px;
+}
+
+
+.menu_lista_link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    font-family: 'Prata', serif;
+}
+
+.menu_lista_link:hover{
+    color:rgb(253, 255, 255);    
+}
+
+.footer{
+    background: linear-gradient(rgb(176, 137, 104) , rgb(221, 184, 146));
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    margin-top:50px;
+}
+
+.Titulo_texto{
+    margin: 18px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Titulo{
+    margin: 18px;
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Prata', serif;
+}
+
+.contDerecha{
+    border: 7px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: flex-start; 
+}
+
+.cuadroDerecho_boton{
+   background-color: rgb(176, 137, 104);
+   width: 125px;
+   height: 35px;
+   color: rgb(255, 255, 255);
+   border-radius: 5%;
+   border: none;
+   margin-top: 10px;
+   font-family: 'Roboto Slab', serif;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.contDerecha_img{
+    width: 30%;
+}
+
+.ParteDerecha__texto{
+    width: 40%;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.card{
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 10px;
+    width:23%;
+    height: 353px;
+    text-align:center;
+    margin:0 50px;
+}
+
+.card_img{
+    width: 60%;
+    margin: 20px 0 0 0;
+}
+
+.contenedorCards{
+    display:flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.card_titulo{
+    margin:10px 0;
+    font-family: 'Prata', serif;
+    font-size: 21px;
+}
+
+.card_parrafo{
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.card_boton{
+    background-color: rgb(255, 190, 152);
+    height: 35px;
+    width: 160px;
+    color:rgb(2, 2, 2);
+    margin-bottom: 80px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:8px;
+}
+
+.contbio_img{
+    height: 370px;
+    width:360px;
+    margin-left: 190px;
+}
+
+.contDerecha2{
+    border: 7px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    align-items: center; 
+    margin: 10% auto;
+}
+
+.ParteDerecha_texto2{
+    width: 90%;
+    margin-left: 90px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.ParteDerecha_texto2_titulo{
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.ParteDerecha_texto2_titulo_p{
+    width:70%;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 140px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    margin-left: 90px;
+}
+
+.contDerecha_img3{
+    width: 30%;
+    height:240px;
+}
+
+.textoboton{
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-size: 40px;
+}
+
+.contenedorPropi{
+    font-size: 30px;
+    margin: 80px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.blogtitulop{
+    font-family: 'Roboto Slab', serif;
+    margin: 100 0;
+    font-size: 20px;
+}
+
+.blogcuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.blogcontenido{
+    width: 35%;
+    padding: 30px;
+}
+
+.blogco{
+    margin-bottom: 15px;
+    font-family: 'Prata', serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.blogtext{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blogimagen{
+    width: 30%;
+}
+
+.blogimagenn{
+    width: 100%;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.blogautorcon{
+    margin-left:1px;
+}
+
+.blogautor{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.autorimagen{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.autorimagenn{
+    width: 100%;
+    height: 100%;
+    border-radius: 99%;
+    border:none;
+    margin-right: 2px;
+}
+
+.blogautorh3{
+    font-size: 25px;
+    font-family: 'Prata', serif;
+}
+
+.blogautorp{
+    margin-top: 3px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+}
+
+.contacto{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactocard{
+    text-align: center;
+}
+
+.contactoimagen{
+    width: 100%;
+}
+
+.conimg{
+    height: 265px;
+    width:225px;
+    border-radius: 10%;
+    margin-top: 75px;
+}
+
+.h1con{
+    font-size: 45px;
+    margin-bottom: 14px;
+    margin-top: 30px;
+}
+
+.pcont{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 13px;
+    font-size: 17px;
+}
+
+.pcont1{
+    font-family: 'Roboto Slab', serif;
+}
+
+.contactoredes{
+    border-top: 10px;
+    margin-top: 23px;
+    height: 25px;
+}
+
+i{
+    color: rgb(142, 107, 41);
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.redesSociales {
+    background-color: rgb(176, 137, 104);
+    height: 60px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes{
+    color: aliceblue;
+    margin-left:30px;
+}
